@@ -8,35 +8,43 @@
     <link rel="stylesheet" type="text/css" href="css/screen_layout_large.css"/>
     <link rel="stylesheet" type="text/css" media="only screen and (min-width: 501px) and (max-width: 800px )" href="css/screen_layout_medium.css"/>
     <link rel="stylesheet" type="text/css" media="only screen and (min-width: 50px) and (max-width: 500px )" href="css/screen_layout_small.css"/>
-
   </head>
-  <!--Body-->
+
+<!--Body-->
+
   <body>
     <script src="js/game.js"></script>
     <div class="page">
-      <div class="container">
-  <!--Header-->
+      <div id="container">
+
+<!--Header-->
+
       <header>
-        <h1>Arizona's Cutest Chef</h1>
+        <div id="title">
+          <h1>Arizona's Cutest Chef</h1>
+        </div>
       </header>
-  <!--Content-->
+
+<!--Content-->
+
       <content>
         <div class="container">
-          <div class="content_wrapper">
-            <div class="content content_1">[image]</div>
-            <div class="content content_2">[content]</div>
+          <div id="image">
+            <h2>[image]</h2>
+          </div>
+            <div id="story"><h2>[Story]</h2>
           </div>
         </div>
       </content>
-  <!--Nav-->
+
+<!--Nav-->
+
       <nav>
         <div class="container">
-          <div class="nav_wrapper ">
-            <div class="nav nav_1">[Back]</div>
-            <div class="nav nav_2">[Prompt]</div>
-            <div class="nav nav_3">[Next]</div>
-            <div class="nav nav_4">[Exit]</div>
-          </div>
+          <button type="button" class="button">[Back]</button>
+          <button type="button" onclick="continueStory()" class="button">[Next]</button>
+          <button type="button" onclick="exit()" class="button"><a href="http://arizonascutestchef.com">[Exit]</a>
+          </button>
         </div>
       </nav>
       </div>
