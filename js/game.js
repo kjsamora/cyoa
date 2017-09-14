@@ -5,9 +5,9 @@ function continueStory() {
 function exit() {
   var answer = confirm("Are you sure you want to exit?")
   if (Yes) {
-    //link
+
   }
   else {
-    //close dialog box
+    close dialog box
   }
 }
