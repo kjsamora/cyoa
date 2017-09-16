@@ -14,7 +14,7 @@ h1 {
 
 a {
   text-decoration: none;
-  color: white; }
+  color: black; }
 
 a:hover {
   color: pink; }
@@ -22,7 +22,7 @@ a:hover {
 .button {
   background-color: red;
   border: 2px;
-  color: white;
+  color: black;
   padding: 15px 32px;
   text-decoration: none;
   font-size: 18px;
