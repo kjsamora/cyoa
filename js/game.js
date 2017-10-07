@@ -3,9 +3,9 @@ function continueStory() {
   document.getElementById('title').style.fontSize = "39px";
 }
 function exit() {
-  var answer = confirm("Are you sure you want to exit?")
+  var answer = prompt("Are you sure you want to exit?")
   if (Yes) {
-      //go to website
+    //go to website
   }
   else {
     //close dialog box
